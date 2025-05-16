@@ -1,0 +1,107 @@
+Bibliotecas mínimas necesarias para correr el proyecto1:  Machine Learning Tradicional -Regresión
+=========================================================================
+Las librerias necesarias para correr el proyecto son:
+
+	pandas
+	numpy
+	matplotlib
+	sklearn
+	lazypredict
+	mlflow
+	pyngrok
+	joblib
+	os
+
+========================================================================
+Se encuentran invocados de la siguiente manera:
+
+
+
+	Para el primer notebook: Analisis_exploratorio
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
+import os
+
+
+	Para el segundo notebook: Preprocesamiento
+
+import pandas as pd
+import numpy as np
+from sklearn.feature_selection import mutual_info_regression
+from sklearn.preprocessing import LabelEncoder
+
+
+	Para el tercer notebook: Entrenamiento_y_validación_del_modelo
+
+import pandas as pd
+import numpy as np
+!pip install lazypredict --quiet
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from lazypredict.Supervised import LazyRegressor
+
+
+
+	Para el cuarto notebook: Evaluación_final_y_exportacion
+
+import pandas as pd
+import numpy as np
+
+import mlflow
+import mlflow.sklearn
+from sklearn.ensemble import ExtraTreesRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from pyngrok import ngrok
+import pandas as pd
+import joblib
+import os
+import matplotlib.pyplot as plt
+
+========================================================================
+Próposito de cada librería única:
+
+	
+	Manipulación y análisis de datos:
+
+pandas : Manipulación de DataFrames/tablas
+numpy : Operaciones numéricas y arreglos eficientes
+
+	
+	Visualización de datos:
+
+matplotlib : Generación de gráficos y visualizaciones (por ejemplo, pyplot)
+
+
+	Preprocesamiento y selección de características:
+
+sklearn.preprocessing : Normalización y codificación (por ejemplo, MinMaxScaler, LabelEncoder)
+sklearn.feature_selection : Selección de variables relevantes (por ejemplo, mutual_info_regression)
+
+
+	Entrenamiento y validación de modelos:
+
+sklearn.model_selection : División de datos para entrenamiento y validación (train_test_split)
+sklearn.ensemble : Modelos de conjunto (por ejemplo, ExtraTreesRegressor)
+lazypredict : Comparación rápida de modelos de regresión y clasificación (LazyRegressor)
+
+
+	Evaluación de modelos:
+
+sklearn.metrics : Cálculo de métricas de rendimiento como mean_squared_error, mean_absolute_error, r2_score
+
+
+	Seguimiento y registro de experimentos:
+
+mlflow : Registro de métricas, parámetros y modelos
+mlflow.sklearn : Registro específico de modelos entrenados con scikit-learn
+pyngrok : Exposición de la interfaz MLflow a través de un túnel público (ngrok)
+
+
+	Persistencia y manejo del sistema:
+
+joblib : Serialización y guardado/carga de modelos entrenados
+os : Acceso al sistema de archivos y operaciones del sistema
