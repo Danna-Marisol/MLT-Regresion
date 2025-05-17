@@ -31,4 +31,8 @@ Usando Lazypredict se seleccionó el modelo ExtraTreeRegressor por su desempeño
 =======================================================================
 
 Resultados y métricas principales:
+mse: 74819855.19912094
 
+mae: 3191.198386132693
+
+r2_score: 0.9686101705137609
