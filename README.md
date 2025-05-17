@@ -13,7 +13,7 @@ Dataset: Car Features and MSRP
 
 Fuente: Kaggle ----> https://www.kaggle.com/datasets/CooperUnion/cardataset/data
 
-Se puede acceder a él a través del archivo: diabetes_dataset_with_notes.rar o a través del enlace de google drive indicado den cada notebook.
+Se puede acceder a él a través del archivo: data.rar o a través del enlace de google drive indicado den cada notebook.
 
   Acerca del conjunto de datos
 
