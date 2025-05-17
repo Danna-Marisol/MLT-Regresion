@@ -1,4 +1,4 @@
-Bibliotecas mínimas necesarias para correr el proyecto1:  Machine Learning Tradicional -Regresión
+Bibliotecas mínimas necesarias para correr el proyecto3:  Machine Learning Tradicional -Regresión
 =========================================================================
 Las librerias necesarias para correr el proyecto son:
 
