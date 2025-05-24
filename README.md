@@ -26,8 +26,8 @@ Decisiones tomadas en el modelado:
 Se usaron las características con menor cardinalidad y con un mínimo de información mutua del 0.3:  'Make', 'Year', 'Engine Fuel Type', 'Engine HP', 'Engine Cylinders', 'Vehicle Style', 'highway MPG', 'city mpg', 'Popularity'
 
 Usando Lazypredict se seleccionó el modelo ExtraTreeRegressor por su desempeño y tiempo de ejecución.
+El código final fue adaptado a la ejecución en github usando deepseek, originalmente fue hecho en google colab y mostrando las métricas en mlflow con ngrok
 
-El código final fue adaptado a la ejecución en github usando deepseek, originalmente fue hecho en google colab y mostrado en mlflow con ngrok
 =======================================================================
 
 Resultados y métricas principales:
