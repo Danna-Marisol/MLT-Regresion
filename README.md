@@ -13,7 +13,7 @@ Dataset: Car Features and MSRP
 
 Fuente: Kaggle ----> https://www.kaggle.com/datasets/CooperUnion/cardataset/data
 
-Se puede acceder a él a través del archivo: data.rar o a través del enlace de google drive indicado den cada notebook.
+El archivo se carga directamente desde un archivo .zip de la nube
 
   Acerca del conjunto de datos
 
@@ -27,7 +27,7 @@ Se usaron las características con menor cardinalidad y con un mínimo de inform
 
 Usando Lazypredict se seleccionó el modelo ExtraTreeRegressor por su desempeño y tiempo de ejecución.
 
-
+El código final fue adaptado a la ejecución en github usando deepseek, originalmente fue hecho en google colab y mostrado en mlflow con ngrok
 =======================================================================
 
 Resultados y métricas principales:
